@@ -1,0 +1,49 @@
+{
+  "name": "get-canvas-pixel-color",
+  "version": "0.5.0",
+  "description": "Micro module to get the color of a single pixel on a HTML canvas",
+  "license": "MIT",
+  "repository": "bfred-it/get-canvas-pixel-color",
+  "author": {
+    "name": "Federico Brigante",
+    "email": "bfred-it@users.noreply.github.com",
+    "url": "twitter.com/bfred_it"
+  },
+  "keywords": [
+    "browser",
+    "dom",
+    "canvas",
+    "pixel",
+    "2d",
+    "color"
+  ],
+  "files": [
+    "index.js",
+    "dist/get-canvas-pixel-color.node.js"
+  ],
+  "main": "dist/get-canvas-pixel-color.node.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "npm run es5 && npm run export && npm run minify",
+    "export": "browserify index.js --standalone getCanvasPixelColor > dist/get-canvas-pixel-color.js",
+    "minify": "uglifyjs dist/get-canvas-pixel-color.js > dist/get-canvas-pixel-color.min.js",
+    "es5": "babel index.js > dist/get-canvas-pixel-color.node.js",
+    "prepublish": "npm run es5"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.1",
+    "uglifyjs": "^2.4.10"
+  },
+  "dependencies": {
+    "on-off": "0.0.2"
+  }
+}

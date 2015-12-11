@@ -1,4 +1,4 @@
-# get-canvas-pixel-color [![module size](https://badge-size.herokuapp.com/bfred-it/get-canvas-pixel-color/master/dist/get-canvas-pixel-color.node.node.min.js) ![module gzipped size](https://badge-size.herokuapp.com/bfred-it/get-canvas-pixel-color/master/dist/get-canvas-pixel-color.node.node.min.js?compression=gzip)](https://github.com/bfred-it/get-canvas-pixel-color/blob/master/dist/get-canvas-pixel-color.min.js)
+# get-canvas-pixel-color [![module size](https://badge-size.herokuapp.com/bfred-it/get-canvas-pixel-color/master/dist/get-canvas-pixel-color.node.min.js) ![module gzipped size](https://badge-size.herokuapp.com/bfred-it/get-canvas-pixel-color/master/dist/get-canvas-pixel-color.node.min.js?compression=gzip)](https://github.com/bfred-it/get-canvas-pixel-color/blob/master/dist/get-canvas-pixel-color.min.js)
 
 > Micro module to get the color of a single pixel on a HTML canvas
 

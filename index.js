@@ -17,8 +17,8 @@ export default function (ctx, x, y) {
 
 	// set each color property
 	pixel.r = pixel[0];
-	pixel.b = pixel[1];
-	pixel.g = pixel[2];
+	pixel.g = pixel[1];
+	pixel.b = pixel[2];
 	pixel.a = pixel[3];
 
 	// convenience CSS strings

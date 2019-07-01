@@ -1,6 +1,6 @@
 {
   "name": "get-canvas-pixel-color",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Micro module to get the color of a single pixel on a HTML canvas",
   "license": "MIT",
   "repository": "bfred-it/get-canvas-pixel-color",

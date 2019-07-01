@@ -1,4 +1,6 @@
-# get-canvas-pixel-color [![module size](https://badge-size.herokuapp.com/bfred-it/get-canvas-pixel-color/master/dist/get-canvas-pixel-color.node.min.js) ![module gzipped size](https://badge-size.herokuapp.com/bfred-it/get-canvas-pixel-color/master/dist/get-canvas-pixel-color.node.min.js?compression=gzip)](https://github.com/bfred-it/get-canvas-pixel-color/blob/master/dist/get-canvas-pixel-color.min.js)
+# get-canvas-pixel-color [![(size)][badge-gzip]](#no-link)
+
+  [badge-gzip]: https://img.shields.io/bundlephobia/minzip/get-canvas-pixel-color.svg?label=gzipped
 
 > Micro module to get the color of a single pixel on a HTML canvas
 
@@ -52,8 +54,6 @@ Here's an explanation of the files included in this repo
 * `index.js`: source file, in ES6
 * `dist/get-canvas-pixel-color.js`: browser-ready file with AMD or a global variable called `getCanvasPixelColor`
 * `dist/get-canvas-pixel-color.min.js`: same as above, minified
-* `dist/get-canvas-pixel-color.node.js`: used by node/browserify with `require('get-canvas-pixel-color')`
-* `dist/get-canvas-pixel-color.node.min.js`: same as above, but minified, for byte counting only
 
 ## Dependencies
 

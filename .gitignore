@@ -1,1 +1,3 @@
 node_modules
+dist/get-canvas-pixel-color.common-js.js
+dist/get-canvas-pixel-color.es-modules.js

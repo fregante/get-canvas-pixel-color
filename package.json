@@ -19,18 +19,14 @@
   ],
   "files": [
     "index.js",
-    "dist/get-canvas-pixel-color.node.js"
+    "dist/get-canvas-pixel-color.common-js.js"
   ],
-  "main": "dist/get-canvas-pixel-color.node.js",
-  "engines": {
-    "node": ">=0.10.0"
-  },
+  "main": "dist/get-canvas-pixel-color.common-js.js",
   "scripts": {
-    "build": "./node_modules/bfred-npm-bundler/tasks/all.sh index.js getCanvasPixelColor get-canvas-pixel-color",
-    "to-npm": "./node_modules/bfred-npm-bundler/tasks/to-npm.sh index.js get-canvas-pixel-color",
-    "prepublish": "npm run to-npm"
+    "build": "bfred-npm-bundler get-canvas-pixel-color getCanvasPixelColor",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "bfred-npm-bundler": "^1.1.2"
+    "bfred-npm-bundler": "^8.1.0"
   }
 }

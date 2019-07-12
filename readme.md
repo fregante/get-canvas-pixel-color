@@ -4,6 +4,8 @@
 
 > Micro module to get the color of a single pixel on a HTML canvas
 
+This is a convenience method around the canvas [`getImageData` API](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData) for just one pixel. If you need to get the color of a lot of pixels at once, it's best to use the underlying API: it's more efficient because you can specify the coordinates of the patch.
+
 ## Usage
 
 ```js

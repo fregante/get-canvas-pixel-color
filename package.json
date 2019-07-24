@@ -2,21 +2,17 @@
   "name": "get-canvas-pixel-color",
   "version": "2.0.0",
   "description": "Micro module to get the color of a single pixel on a HTML canvas",
-  "license": "MIT",
-  "repository": "bfred-it/get-canvas-pixel-color",
-  "author": {
-    "name": "Federico Brigante",
-    "email": "bfred-it@users.noreply.github.com",
-    "url": "twitter.com/bfred_it"
-  },
   "keywords": [
-    "browser",
-    "dom",
-    "canvas",
-    "pixel",
     "2d",
-    "color"
+    "browser",
+    "canvas",
+    "color",
+    "dom",
+    "pixel"
   ],
+  "repository": "fregante/get-canvas-pixel-color",
+  "license": "MIT",
+  "author": "Federico Brigante <opensource@bfred.it> (bfred.it)",
   "files": [
     "index.js",
     "dist/get-canvas-pixel-color.common-js.js"

@@ -1,4 +1,4 @@
-/*! npm.im/get-canvas-pixel-color 2.0.0 */
+/*! npm.im/get-canvas-pixel-color 2.0.1 */
 var getCanvasPixelColor = (function () {
 'use strict';
 
@@ -26,7 +26,7 @@ var index = function (ctx, x, y) {
 
 	// convenience CSS strings
 	pixel.rgb = 'rgb('+pixel.r+','+pixel.g+','+pixel.b+')';
-	pixel.rgba = 'rgb('+pixel.r+','+pixel.g+','+pixel.b+','+pixel.a+')';
+	pixel.rgba = 'rgba('+pixel.r+','+pixel.g+','+pixel.b+','+pixel.a+')';
 
 	return pixel;
 };

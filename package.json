@@ -1,6 +1,6 @@
 {
   "name": "get-canvas-pixel-color",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Micro module to get the color of a single pixel on a HTML canvas",
   "keywords": [
     "2d",

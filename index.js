@@ -23,7 +23,7 @@ export default function (ctx, x, y) {
 
 	// convenience CSS strings
 	pixel.rgb = 'rgb('+pixel.r+','+pixel.g+','+pixel.b+')';
-	pixel.rgba = 'rgb('+pixel.r+','+pixel.g+','+pixel.b+','+pixel.a+')';
+	pixel.rgba = 'rgba('+pixel.r+','+pixel.g+','+pixel.b+','+pixel.a+')';
 
 	return pixel;
 }

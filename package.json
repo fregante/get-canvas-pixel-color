@@ -20,7 +20,7 @@
   "main": "dist/get-canvas-pixel-color.common-js.js",
   "scripts": {
     "build": "bfred-npm-bundler get-canvas-pixel-color getCanvasPixelColor",
-    "prepublishOnly": "npm run build"
+    "version": "npm run build && git add dist"
   },
   "devDependencies": {
     "bfred-npm-bundler": "^8.1.0"
